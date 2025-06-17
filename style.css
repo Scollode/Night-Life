@@ -24,7 +24,7 @@ body {
 .logo {
   width: 300px;           
   max-width: 100%;
-  height: auto;
+  height: center;
 }
 
 .site-main {
