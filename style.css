@@ -13,13 +13,10 @@ body {
 
 .site-header {
   background: url("img/logo.png") no-repeat center center;
-  background-size: contain;  /* Logo komplett sichtbar, proportional skaliert */
-  padding: 100px 100px;        /* mehr Höhe, damit das Bild gut zur Geltung kommt */
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  position: relative;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vw * 0.5);
 }
-
 .logo-container {
   max-width: 300px;
   margin: 0 auto;
