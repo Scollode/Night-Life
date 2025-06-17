@@ -23,10 +23,9 @@ body {
 }
 
 .logo {
-  width: 100%;
+  width: 300px;           
+  max-width: 90%;
   height: auto;
-  display: block;
-  user-select: none;
 }
 
 .site-main {
