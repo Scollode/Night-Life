@@ -14,7 +14,7 @@ body {
 .site-header {
   background: url("img/logo.png") no-repeat center center;
   background-size: contain;  /* Logo komplett sichtbar, proportional skaliert */
-  padding: 80px 20px;        /* mehr Höhe, damit das Bild gut zur Geltung kommt */
+  padding: 100px 100px;        /* mehr Höhe, damit das Bild gut zur Geltung kommt */
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   position: relative;
