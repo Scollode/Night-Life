@@ -78,3 +78,7 @@ body {
   border-top: 1px solid #eee;
   margin-top: 60px;
 }
+html, body {
+  overflow-x: hidden;    /* horizontales Scrollen ausschalten */
+  width: 100%;
+}
