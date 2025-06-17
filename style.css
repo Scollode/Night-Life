@@ -33,16 +33,16 @@ body, html {
 
 /* Servername in Lobster */
 .title {
-  position: relative;
   font-family: 'Lobster', cursive;
   font-size: 4rem;
-  color: white;
-  background-color: rgba(255, 255, 0, 0.8); /* Gelber halbtransparenter Hintergrund */
-  padding: 1rem 3rem;
-  border-radius: 1rem;
+  color: black;
+  background-color: transparent; /* Kein Hintergrund */
+  padding: 0;                  /* Kein Innenabstand */
+  border-radius: 0;            /* Keine abgerundeten Ecken */
+  box-shadow: none;            /* Kein Schatten */
   z-index: 2;
   text-align: center;
-  box-shadow: 0 0 10px #000;
+  position: relative;
 }
 
 /* Content Bereich mit weißem Hintergrund */
