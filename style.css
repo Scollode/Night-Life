@@ -51,7 +51,7 @@ body, html {
 
 /* Content Bereich mit weißem Hintergrund */
 .content {
-  font-size: 18px; /* Beispielgröße */
+  font-size: 30px; /* Beispielgröße */
   background-color: white;
   max-width: 900px;
   margin: 2rem auto;
