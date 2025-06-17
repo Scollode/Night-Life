@@ -10,9 +10,13 @@ body, html {
 /* Hero-Bereich mit Hintergrundbild, scrollt mit */
 .hero {
   position: relative;
-  height: 60vh; /* Höhe ca. 60% vom Viewport */
+  width: 100%;               /* gesamte Breite */
+  height: 50vw;              /* Höhe so, dass Seitenverhältnis 16:8 (2:1) passt */
+  max-height: 400px;         /* max. Höhe optional, z.B. 400px */
+  
   background: url("img/hintergrund.jpg") no-repeat center center;
-  background-size: cover;
+  background-size: cover;    /* Bild skaliert und füllt den Bereich */
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +51,7 @@ body, html {
 
 /* Content Bereich mit weißem Hintergrund */
 .content {
+  font-size: 18px; /* Beispielgröße */
   background-color: white;
   max-width: 900px;
   margin: 2rem auto;
