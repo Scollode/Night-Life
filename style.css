@@ -1,79 +1,83 @@
-body, html {
+/* Reset und Basis */
+* {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #333;
-  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #222;
+  line-height: 1.6;
 }
 
-/* Hero-Bereich mit Hintergrundbild, scrollt mit */
-.hero {
-  position: relative;
-  width: 100%;               /* gesamte Breite */
-  height: 50vw;              /* Höhe so, dass Seitenverhältnis 16:8 (2:1) passt */
-  max-height: 400px;         /* max. Höhe optional, z.B. 400px */
-  
-  background: url("img/hintergrund.jpg") no-repeat center center;
-  background-size: cover;    /* Bild skaliert und füllt den Bereich */
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-/* Logo hinter dem Titel */
-.logo-bg {
-  position: absolute;
-  width: 300px;
-  opacity: 0.1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
-
-/* Servername in Lobster */
-.title {
-  font-family: 'Lobster', cursive;
-  font-size: 4rem;
-  color: black;
-  background-color: transparent; /* Kein Hintergrund */
-  padding: 0;                  /* Kein Innenabstand */
-  border-radius: 0;            /* Keine abgerundeten Ecken */
-  box-shadow: none;            /* Kein Schatten */
-  z-index: 2;
+.site-header {
+  background-color: #ffcc00; /* Gelb */
+  padding: 40px 20px;
   text-align: center;
-  position: relative;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Content Bereich mit weißem Hintergrund */
-.content {
-  font-size: 30px; /* Beispielgröße */
-  background-color: white;
+.logo-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+}
+
+.site-main {
   max-width: 900px;
-  margin: 2rem auto;
-  padding: 2rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
-.content h2 {
-  color: #ffcc00;
-  text-align: center;
-  margin-bottom: 1rem;
+.intro h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
 }
 
-.content ol {
-  padding-left: 1.4rem;
+.intro p {
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.rules {
+  margin-top: 3rem;
+  background: #fffbea; /* sehr helles Gelb */
+  border-left: 6px solid #ffcc00;
+  padding: 1.5rem 2rem;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(255, 204, 0, 0.3);
+}
+
+.rules h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #b38600;
+}
+
+.rules ol {
+  margin-left: 1rem;
+  font-size: 1.1rem;
   color: #333;
+  padding-left: 1.5rem;
 }
 
-footer {
+.rules li {
+  margin-bottom: 0.8rem;
+}
+
+.site-footer {
   text-align: center;
-  padding: 1rem;
-  background-color: #f1f1f1;
-  color: #666;
+  color: #888;
+  font-size: 0.9rem;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  margin-top: 60px;
 }
