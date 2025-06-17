@@ -18,13 +18,12 @@ body {
   height: calc(100vw * 0.5);
 }
 .logo-container {
-  max-width: 300px;
-  margin: 0 auto;
+  text-align: center; 
 }
 
 .logo {
   width: 300px;           
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 
