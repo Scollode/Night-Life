@@ -12,10 +12,12 @@ body {
 }
 
 .site-header {
-  background-color: #ffcc00; /* Gelb */
-  padding: 40px 20px;
+  background: url("img/logo.png") no-repeat center center;
+  background-size: contain;  /* Logo komplett sichtbar, proportional skaliert */
+  padding: 80px 20px;        /* mehr Höhe, damit das Bild gut zur Geltung kommt */
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
 }
 
 .logo-container {
